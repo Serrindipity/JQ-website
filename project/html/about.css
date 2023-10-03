@@ -1,0 +1,45 @@
+body:not(.excludeOpacity) {
+    background-image: url("Jon-San-Quintin.jpeg");
+    background-repeat: no-repreat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    height: 300vh;
+    transition: background-blend-mode 0.2s ease-in-out;
+    margin: 0px;
+    text-align: center;
+}
+.topbar {
+    list-style-type: none;
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+.topbar > li  {
+    list-style-type: none;
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    margin: 0px;
+    position: sticky;
+}
+.topbar > li:hover {
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    margin: 0px;
+    background-color: #AAA;
+    align-items: center;
+}
+.testBlock {
+    height: 700px;
+}
+.excludeOpacity {
+    opacity: 1;
+}
